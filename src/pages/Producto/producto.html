@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Animalandia</title>
+</head>
+
+<body>
+    <div class="container-fluid overflow-hidden">
+        <header>
+            <div class="row justify-content-between align-items-center text-center">
+                <div class="header-logo col-12 col-md-2 mb-4">
+                    <img src="../../utils/img/logo.jpg" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-3 mb-3">
+                    <img src="../../utils/img/golden.jpg"
+                        class="img-usuario rounded-circle border border-secondary border-4">
+                    <span>
+                        <strong>Bienvenido,</strong>Usuario
+                        <a href="../login.html"><i class="bi bi-box-arrow-right"></i></a>
+                    </span>
+                </div>
+            </div>
+        </header>
+        <div class="row">
+            <section>
+                <article class="row">
+                    <div class="col-12 col-md-3">
+                        <ul class="nav nav-native flex-column mb-3 pt-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../Usuario/usuario.html"><i
+                                        class="bi bi-person-fill"></i> Usuarios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Cliente/cliente.html"><i class="bi bi-person-rolodex"></i>
+                                    Cliente</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Producto/producto.html"><i
+                                        class="bi bi-card-checklist"></i>
+                                    Producto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Pedidos/pedidos.html"><i class="bi bi-cart3"></i>
+                                    Pedidos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Reportes/reportes.html"><i
+                                        class="bi bi-graph-up-arrow"></i> Reportes</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="text mt-4 mx-2 col">
+                        <img src="../../utils/img/golden.jpg" alt="Imagen de Producto"
+                            class="img-product rounded-circle border border-secondary border-2 mb-3">
+                        <h1 class="mb-4">Gestión de Productos</h1>
+                        <a href="productoAdd.html"><button class="btn btn-secondary mb-3">Agregar</button></a>
+                        <form>
+                            <div class="row">
+                                <div class="col-8 col-md-9">
+                                    <input type="text" class="form-control"
+                                        placeholder="Ingresa el producto a consultar">
+                                </div>
+                                <div class="col">
+                                    <button type="submit" class="btn btn-secondary">Buscar</button>
+                                </div>
+                            </div>
+                        </form>
+                        <div>
+                            <table class="table border border-2 border-dark mt-4">
+                                <thead>
+                                    <tr class="text-center ">
+                                        <th scope="col" class="border border-2 border-dark table-primary">Id Cliente</th>
+                                        <th scope="col" class="border border-2 border-dark table-primary">Nombre</th>
+                                        <th scope="col" class="border border-2 border-dark table-primary">Apellido</th>
+                                        <th scope="col" class="border border-2 border-dark table-primary">E-mail</th>
+                                        <th scope="col" class="border border-2 border-dark table-primary">Estado</th>
+                                        <th scope="col" colspan="2" class=" border border-2 border-dark table-primary">Acciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="text-center">
+                                        <td class="border border-2 border-dark">xxxxx</td>
+                                        <td class="border border-2 border-dark">xxxxx</td>
+                                        <td class="border border-2 border-dark">xxxxx</td>
+                                        <td class="border border-2 border-dark">xxxxx</td>
+                                        <td class="border border-2 border-dark">xxxxx</td>
+                                        <td class="border border-2 border-dark"><a href="productoEditar.html"><img
+                                                    src="../../utils/img/lista.jpeg" class="list-img"></a>
+                                            <button class="btn btn-success mt-2">Eliminar</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div>
+        <script src="../../js/bootstrap.js"></script>
+</body>
+
+</html>

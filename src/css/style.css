@@ -1,0 +1,345 @@
+:root{
+	--dark-color:#191919;
+	--white-color:#FFFFFF;
+	--purple-color:rgb(117,41,149);
+	--blue-color:#00B2D1;
+	--gray-color:#828282;
+	--ligh-color:#F3F3F3;
+    --transparencia-color:#CCEDF4;
+    --tmorado-color:rgba(117,41,149,45%);
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+.btn-primary {
+    background: linear-gradient(#00B2B1, #016e6e);
+    color:var(--dark-color);
+    font-weight: bold;
+    border-color:var(--blue-color);
+}
+.btn-primary:hover {
+    color:var(--dark-color);
+    border-color:var(--blue-color);
+    background: linear-gradient(#016e6e,#00B2B1);
+    transition: all 1s ease 1s;
+}
+.btn-outline-primary {
+    color: var(--purple-color);
+    border-color: var(--purple-color);
+    font-weight: bold;
+    border-style: solid;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color:var(--purple-color);
+    border-color: var(--purple-color);
+    font-weight: bold;
+}
+.btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
+    box-shadow: 0 0 0 0 rgba(13, 110, 253, 0.5);
+}
+.header-logo img{
+    max-width: 270px;
+}
+.navbar-brand img{
+    max-width: 100px;;
+}
+.form-control:focus {
+    color: var(--purple-color);
+    border-color: var(--blue-color);
+    box-shadow: 0 0 0 0;
+}
+.agenda-cita{
+    background-image: url(../utils/img/fondo.jpg);
+    padding: 3rem;
+}
+.agenda-cita h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.agenda-cita h3{
+    font-size: 1rem;
+}
+.agenda-promo{
+    background-color: var(--purple-color);
+    padding: 3rem;
+
+}
+.agenda-promo h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--white-color);
+    text-shadow: 3px 3px 3px var(--dark-color);
+}
+.agenda-promo img{
+    border: 7px solid var(--white-color);
+}
+.tittle-section{
+    color: var(--purple-color);
+    font-weight: bold;
+    text-shadow: 1px 1px 3px var(--dark-color);
+}
+.card{
+    text-align: center;
+    border: 0px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.card img{
+    max-width: 200px;
+}
+.card-title{
+    color: var(--purple-color);
+}
+footer{
+    background-image: url(../utils/img/fondo.jpg);
+    color:var(--white-color);
+}
+.box-footer{
+    background-color: rgba(117, 41, 149, 0.5);
+}
+
+/*SERVICIOS*/
+
+.card-title-services{
+    text-align:justify;
+}
+.card-text{
+    text-align: justify;
+}
+.d-block{
+    max-height: 450px;
+}
+
+
+/*CONTACTO*/
+
+#contacto{
+    padding: 2rem;
+    background-color: var(--transparencia-color);
+    border-radius: 10px;
+    margin: 1rem;
+}
+.icon-contact{
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    border-color: var(--blue-color);
+    border: none;
+}
+
+iframe{
+    box-shadow: 1px 4px 10px var(--purple-color);
+}
+.btn-info{
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    border-color: var(--blue-color);
+    box-shadow: 0px 4px 10px var(--purple-color);
+    font-weight:bold;
+}
+.btn-info:hover{
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    border-color: var(--blue-color);
+}
+.btn-check:focus + .btn-info, .btn-info:focus{
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    border-color: var(--blue-color);
+    box-shadow: 0px 4px 10px var(--purple-color);
+}
+.btn-check:checked + .btn-info:focus, .btn-check:active + .btn-info:focus, .btn-info:active:focus, .btn-info.active:focus, .show > .btn-info.dropdown-toggle:focus{
+    box-shadow: 0 0 0 0;
+}
+.form-select {
+    color: var(--white-color);
+    background-color:var(--tmorado-color);
+    border: 1px solid #ced4da;
+    font-weight: bold;
+    box-shadow:0px 2px 3px var(--dark-color) inset;
+}
+.form-select:focus {
+    border-color: var(--purple-color);
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+.form-personalized {
+    color:var(--white-color);
+    background-color: var(--tmorado-color);
+    border: 1px solid var(--purple-color);
+    box-shadow:0px 1px 2px var(--dark-color) inset;
+}
+.form-personalized:focus {
+    background-color:var(--tmorado-color);
+    border-color:var(--purple-color);
+    box-shadow: 0 0 0 0;
+}
+.form-personalized::placeholder{
+    color: var(--white-color);
+    font-weight: bold;
+}
+
+/*TIPS*/
+
+#tips{
+    width: 100vw;
+    background-image: url(../utils/img/fondo-tips.jpg);
+    padding: 1rem;
+}
+.card-tips {
+    background-color:#88E8F2;
+    box-shadow: 0px 3px 7px var(--purple-color);
+}
+.card-tips img{
+    box-shadow: 3px 3px 7px var(--purple-color);
+}
+
+/*LOGIN*/
+
+#login img{
+    width: 280px;
+    height: 110px;
+}
+.form-login{
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 1px 1px 2px var(--gray-color);
+    background-color: rgba(124, 121, 126, 0.2);
+    border-radius: 5px;
+}
+.form-label{
+    color: var(--purple-color);
+    font-weight: bold;
+}
+.form-input{
+    border: 3px solid var(--gray-color);
+    padding: 0.5rem;
+    outline: none;
+}
+.form-input:focus{
+    border: 3px solid var(--black-color);
+}
+.form-input::placeholder{
+    font-size: 0.8rem;
+}
+.btn-success {
+    color:var(--dark-color);
+    background-color: var(--blue-color);
+    border-color:var(--blue-color);
+    font-weight: bold;
+}
+.btn-success:hover {
+    color:var(--dark-color);
+    background-color: var(--blue-color);
+    border-color:var(--blue-color);
+}
+.btn-check:focus + .btn-success, .btn-success:focus {
+    color:var(--dark-color);
+    background-color: var(--blue-color);
+    border-color:var(--blue-color);
+    box-shadow: 0 0 0 0;
+}
+.btn-check:checked + .btn-success, .btn-check:active + .btn-success, .btn-success:active, .btn-success.active, .show > .btn-success.dropdown-toggle {
+    color:var(--dark-color);
+    background-color: var(--blue-color);
+    border-color:var(--blue-color);
+}
+.btn-check:checked + .btn-success:focus, .btn-check:active + .btn-success:focus, .btn-success:active:focus, .btn-success.active:focus, .show > .btn-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0;
+}
+.btn-success:disabled, .btn-success.disabled {
+    color:var(--dark-color);
+    background-color: var(--blue-color);
+    border-color:var(--blue-color);
+}
+.btn-secondary {
+    color: var(--dark-color);
+    background-color: var(--purple-color);
+    border-color: var(--purple-color);
+    font-weight: bold;
+}
+.btn-secondary:hover {
+    color: var(--dark-color);
+    background-color: var(--purple-color);
+    border-color: var(--purple-color);
+}
+.btn-check:focus + .btn-secondary, .btn-secondary:focus {
+    color: var(--dark-color);
+    background-color: var(--purple-color);
+    border-color: var(--purple-color);
+    box-shadow: 0 0 0 0;
+}
+.btn-check:checked + .btn-secondary, .btn-check:active + .btn-secondary, .btn-secondary:active, .btn-secondary.active, .show > .btn-secondary.dropdown-toggle {
+    color: var(--dark-color);
+    background-color: var(--purple-color);
+    border-color: var(--purple-color);
+}
+.btn-check:checked + .btn-secondary:focus, .btn-check:active + .btn-secondary:focus, .btn-secondary:active:focus, .btn-secondary.active:focus, .show > .btn-secondary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0;
+}
+.btn-secondary:disabled, .btn-secondary.disabled {
+    color: var(--dark-color);
+    background-color: var(--purple-color);
+    border-color: var(--purple-color);
+}
+.form-olvido{
+    color: var(--blue-color);
+    font-size: 0.9rem;
+}
+.icon i{
+    font-size: 60px;
+    color: var(--purple-color);
+}
+.btn-success a{
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+/*DASHBOARD*/
+
+.img-usuario{
+    max-width: 70px;
+}
+.border-secondary {
+    border-color: var(--purple-color)!important;
+}
+span, span i{
+    color: var(--purple-color);
+}
+span i{
+    font-size: 20px;
+}
+.nav-native{
+    background-color: var(--dark-color);
+    font-weight: 500;
+    height: 100%;
+}
+.nav-native a{
+    color: var(--ligh-color);
+}
+.nav-native a:hover{
+    color: var(--ligh-color);
+    background-color: var(--purple-color);
+    border: 3px solid var(--white-color);
+    padding-left: 40px;
+    transition: all 2s;
+}
+.nav-native i{
+    margin: 3px;
+
+}
+.text{
+    text-align: justify;
+}
+/*PRODUCTO*/
+.img-product{
+    max-width: 150px;
+}
+.list-img{
+    width: 60px;
+    height: 60px;
+}
+
+.table-primary {
+    --bs-table-bg:var(--purple-color);
+}
